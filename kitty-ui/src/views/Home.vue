@@ -7,7 +7,7 @@
 </template>
 
 <script>
-/*
+
 import axios from 'axios'
 import mock from '@/mock/mock.js'
 export default {
@@ -29,5 +29,5 @@ export default {
     }
   }
 }
-*/
+
 </script>

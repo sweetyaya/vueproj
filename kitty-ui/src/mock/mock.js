@@ -1,4 +1,12 @@
 import Mock from 'mockjs'
+
+Mock.mock('http://localhost:8080/login', {
+    data: {
+        'token': '4344323121398'
+        
+    }
+});
+
 Mock.mock('http://localhost:8080/user', {
     'name': '@name',
     'email': '@email',
